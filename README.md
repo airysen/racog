@@ -1,7 +1,7 @@
 RACOG
 =====
 
-# A Python implementation of Rapidy Converging Gibbs sampler<sup>1,2</sup> for data oversampling with CAIM<sup>3</sup> and MDLP<sup>4</sup> discretization methods
+A Python implementation of Rapidly Converging Gibbs sampler<sup>1,2</sup> for data oversampling with CAIM<sup>3</sup> and MDLP<sup>4</sup> discretization methods
 
 
 Reference
@@ -20,7 +20,8 @@ Installation
 -------------
 
 Requirements:
-
+ * [numpy](www.numpy.org)
+ * [scipy](https://www.scipy.org/)
  * [pomegranate](https://github.com/jmschrei/pomegranate)
  * [pandas](http://pandas.pydata.org/)
  * [imblearn](https://github.com/scikit-learn-contrib/imbalanced-learn)

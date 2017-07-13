@@ -224,6 +224,7 @@ class RACOG(BaseOverSampler):
 
     def sample(self, X, y):
         if isinstance(X, pd.DataFrame):
+            self.pdflag = True
             self.pd_index = X.index.values
             self.pd_columns = X.columns
             self.pd_yname = y.name
